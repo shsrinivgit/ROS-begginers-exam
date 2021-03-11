@@ -1,0 +1,6 @@
+#goal, empty                
+---                             
+#result, Odometry array             
+geometry_msgs/Pose[] result_odom_array                
+---                             
+#feedback, empty

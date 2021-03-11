@@ -1,0 +1,22 @@
+<launch>
+
+  <node pkg ="path_exam"
+        type="distance_motion_service.py"
+        name="start_drone_service"
+        output="screen">
+  </node>
+  
+  <node pkg ="path_exam"
+        type="check_distance_action.py"
+        name="call_act_server"
+        output="screen">
+  </node>
+
+  <node pkg ="path_exam"
+        type="main_program.py"
+        name="main_program_node"
+        output="screen">
+  </node>
+
+
+</launch>

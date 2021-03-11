@@ -1,0 +1,8 @@
+<launch>
+
+  <node pkg ="path_exam"
+        type="motion_service.py"
+        name="start_drone_service"
+        output="screen">
+  </node>
+</launch>
